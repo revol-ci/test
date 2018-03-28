@@ -2,3 +2,4 @@ image: ubuntu
 
 script:
   - echo hi
+  - echo hi
