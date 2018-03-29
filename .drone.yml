@@ -7,4 +7,5 @@ pipeline:
     image: plugins/slack
     channel: ci
     webhook: https://hooks.slack.com/services/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
-    when: [success, failure]
+    when:
+      status: [success, failure]
