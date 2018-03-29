@@ -3,3 +3,5 @@ image: ubuntu
 script:
   - echo hi
   - echo hi
+after_successful:
+  - echo hi
